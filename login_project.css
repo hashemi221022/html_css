@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #555;
+    background-color: #f6f6f6;
+}
+.login-form {
+    background: #ecf0f3;
+    width: 430px;
+    height: 700px;
+    padding: 60px 35px 35px 60px;
+    border-radius: 50px;
+    box-shadow:  13px 13px 20px #cbced1,
+    -13px -13px 20px #ffffff;
+
+}
+.logo {
+    background: url(./rsz_images.jpeg);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 2px #5f5f5f,
+    0px 0px 2px 5px #ecf0f3,
+    8px 8px 15px #afaaa7,
+    -8px -8px 15px #ffffff;
+}
+.title {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 20px;
+}
+.fields {
+    width: 100%;
+    padding: 75px 5px 5px 5px;
+}
+.pass-input , .user-input {
+    border: none;
+    background: none;
+    font-size: 18px;
+    padding: 20px 10px 20px 5px;
+    outline: none;
+}
+.username, .password {
+    box-shadow: inset 8px 8px 8px #cbced1,
+   inset -8px -8px 8px #ffffff;
+    margin-bottom: 30px;
+    border-radius: 30px;
+
+}
+
+.login-button {
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    height: 60px;
+    background-color: #02c8db;
+    /* border-radius: 30px; */
+    margin: 0 80px;
+    font-size: 20px;
+    font-weight: 700px;
+    color: #ffffff;
+    box-shadow:  8px 8px 12px #b1b1b1,
+    -8px -8px 12px #ffffff;
+    /* transition: border-radius 1s 100ms ease-in, background 1s 200ms ease-in, font-size 1s 100ms ease-in; */
+    transition: all 1s ease-in-out;
+}
+.login-button:hover {
+    background-color: #50e5b9;
+    border-radius: 30px;
+    font-size: 25px;
+
+
+}
+.svg-icon { 
+    height: 22px;
+    margin: 0 10px -4px 25px;
+}
+.link {
+    padding-top: 20px;
+    /* margin-top: 20px; */
+    text-align: center;
+}
+.link a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* http://svgicons.sparkk.fr */
+/* https://picresize.com */
